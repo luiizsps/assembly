@@ -1,6 +1,6 @@
 	.data
-var_a	.word 10
-var_b	.word 9
+var_a:	.word	10
+var_b:	.word	9
 	.text
 	lw	$s3, var_a
 	lw	$t1, var_b
